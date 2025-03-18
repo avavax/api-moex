@@ -1,0 +1,33 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^2.29.3",
+    "core-js": "^3.33.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.89.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chart.js": "^3.7.0",
+    "chartjs-plugin-zoom": "^2.2.0",
+    "hammerjs": "^2.0.8"
+  }
+}
